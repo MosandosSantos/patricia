@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patricia S. Pereira | Psicoterapia Online</title>
+  <meta
+    name="description"
+    content="Psicóloga clínica especializada em Terapia Cognitivo-Comportamental. Atendimento online para ansiedade, depressão, TDAH e desenvolvimento pessoal."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="icon" href="public/icon-light-32x32.png" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="public/icon-dark-32x32.png" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" href="public/apple-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Ir para o início">
+        <span class="brand-name">Patricia S. Pereira</span>
+        <span class="brand-tag">Psicoterapia Online</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#desafios">Desafios</a>
+        <a href="#psicoterapia">A Psicoterapia</a>
+        <a href="#faq">FAQ</a>
+        <a class="button button-primary button-small" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+          <span class="icon-wrap">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.08.36 2.24.54 3.4.54a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.3 21 3 13.7 3 4.8a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.16.18 2.32.54 3.4a1 1 0 0 1-.24 1z" fill="currentColor"/></svg>
+          </span>
+          Agendar
+        </a>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" data-mobile-menu>
+      <nav class="container mobile-nav" aria-label="Navegação mobile">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#desafios">Desafios</a>
+        <a href="#psicoterapia">A Psicoterapia</a>
+        <a href="#faq">FAQ</a>
+        <a class="button button-primary" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+          <span class="icon-wrap">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.08.36 2.24.54 3.4.54a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.3 21 3 13.7 3 4.8a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.16.18 2.32.54 3.4a1 1 0 0 1-.24 1z" fill="currentColor"/></svg>
+          </span>
+          Fale Comigo
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section" id="inicio">
+      <div class="hero-shape hero-shape-a"></div>
+      <div class="hero-shape hero-shape-b"></div>
+      <div class="hero-shape hero-shape-c"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy section-reveal reveal-left">
+          <h1>Patricia S. Pereira</h1>
+          <p class="eyebrow">Psicoterapia Cognitivo-Comportamental</p>
+          <p class="hero-description">
+            Atendimento online individual para adultos. Transforme sua relação com você
+            mesmo e conquiste uma vida mais equilibrada e plena.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary button-large" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+              <span class="icon-wrap">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5A8.5 8.5 0 0 1 7.4 18.9L3 20l1.18-4.2A8.5 8.5 0 1 1 20 11.5Zm-8.5-6.3A6.3 6.3 0 0 0 6.1 15.9l.27.43-.7 2.52 2.58-.67.42.25A6.3 6.3 0 1 0 11.5 5.2Zm3.77 8.03c-.2-.1-1.16-.57-1.34-.63-.18-.07-.31-.1-.44.1-.13.2-.5.63-.62.76-.11.13-.22.15-.42.05-.2-.1-.83-.3-1.58-.97-.58-.52-.97-1.17-1.08-1.37-.11-.2-.01-.31.08-.41.08-.08.2-.22.3-.33.1-.11.13-.2.2-.33.06-.13.03-.25-.02-.35-.05-.1-.44-1.05-.6-1.44-.16-.37-.32-.32-.44-.33h-.38c-.13 0-.35.05-.53.25-.18.2-.7.69-.7 1.69 0 1 .71 1.96.8 2.1.1.13 1.4 2.14 3.39 3 .47.2.84.32 1.13.41.48.15.91.13 1.25.08.38-.06 1.16-.47 1.33-.92.16-.46.16-.85.11-.92-.05-.08-.18-.13-.38-.23Z" fill="currentColor"/></svg>
+              </span>
+              Fale Comigo
+            </a>
+            <a class="button button-outline button-large" href="#sobre">Saiba Mais</a>
+          </div>
+          <div class="hero-cta-points">
+            <span>Atendimento online para todo o Brasil</span>
+            <span>Resposta inicial pelo WhatsApp</span>
+            <span>Agendamento simples e rápido</span>
+          </div>
+        </div>
+
+        <div class="hero-media section-reveal reveal-right">
+          <div class="hero-orb"></div>
+          <div class="hero-photo-frame">
+            <img src="public/images/patricia-hero.jpg" alt="Patricia S. Pereira - Psicóloga">
+          </div>
+          <div class="hero-badge">
+            <div class="badge-icon">🎓</div>
+            <div>
+              <strong>CRP 06/123456</strong>
+              <span>Especialista em TCC</span>
+            </div>
+          </div>
+          <form class="hero-lead-card whatsapp-form" data-whatsapp-form>
+            <h3>Fale com a Patricia agora</h3>
+            <p>Preencha em menos de 1 minuto e abra a conversa no WhatsApp com sua mensagem pronta.</p>
+            <label>
+              <span>Seu nome</span>
+              <input type="text" name="name" placeholder="Como você gostaria de ser chamado(a)?" required>
+            </label>
+            <label>
+              <span>O que você busca hoje?</span>
+              <select name="goal" required>
+                <option value="">Selecione</option>
+                <option>Ansiedade</option>
+                <option>TDAH</option>
+                <option>Depressão</option>
+                <option>Autoestima</option>
+                <option>Relacionamentos</option>
+                <option>Quero entender melhor meu caso</option>
+              </select>
+            </label>
+            <button class="button button-primary button-full" type="submit">Abrir conversa no WhatsApp</button>
+          </form>
+        </div>
+      </div>
+
+      <a class="scroll-indicator" href="#sobre" aria-label="Rolar para a próxima seção">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42l4.3 4.3 4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29Z" fill="currentColor"/></svg>
+      </a>
+    </section>
+
+    <section class="about-section section-pad" id="sobre">
+      <div class="decor decor-right"></div>
+      <div class="decor decor-left"></div>
+      <div class="container about-grid">
+        <div class="about-photo-wrap section-reveal reveal-left">
+          <div class="about-photo-shadow"></div>
+          <div class="about-photo-frame">
+            <img src="public/images/patricia-about.jpg" alt="Patricia S. Pereira em retrato profissional">
+          </div>
+          <aside class="quote-card">
+            <p>"Cada pessoa carrega em si a capacidade de se transformar. Meu papel é facilitar essa jornada."</p>
+            <span>Patricia</span>
+          </aside>
+        </div>
+
+        <div class="about-copy section-reveal reveal-right">
+          <span class="section-kicker">Sobre Mim</span>
+          <h2>Olá, sou a Patricia</h2>
+          <p>
+            Sou psicóloga clínica com mais de 10 anos de experiência em atendimento
+            individual para adultos. Minha abordagem é a Terapia Cognitivo-Comportamental (TCC),
+            uma das mais eficazes e baseadas em evidências científicas.
+          </p>
+          <p>
+            Acredito que a psicoterapia é um espaço de acolhimento e transformação,
+            onde você pode desenvolver novas habilidades para lidar com os desafios
+            da vida e construir uma relação mais saudável consigo mesmo.
+          </p>
+
+          <ul class="credential-list">
+            <li>Psicóloga Clínica - CRP 06/123456</li>
+            <li>Especialista em Terapia Cognitivo-Comportamental</li>
+            <li>Pós-graduação em Saúde Mental e TDAH</li>
+            <li>Atendimento online para todo o Brasil</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container stats-grid section-reveal reveal-up">
+        <article class="stat-card">
+          <div class="stat-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.7-4.32-9.19-8.38C1.1 9.83 2 6.35 5.05 4.6c2.11-1.2 4.65-.83 6.22.84 1.57-1.67 4.11-2.04 6.22-.84 3.05 1.75 3.96 5.23 2.24 8.02C18.7 16.68 12 21 12 21Z" fill="currentColor"/></svg>
+          </div>
+          <strong>+500</strong>
+          <span>Pacientes atendidos</span>
+        </article>
+        <article class="stat-card">
+          <div class="stat-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 2.35 4.76 5.25.76-3.8 3.7.9 5.23L12 13.98l-4.7 2.47.9-5.23-3.8-3.7 5.25-.76L12 2Z" fill="currentColor"/></svg>
+          </div>
+          <strong>10+</strong>
+          <span>Anos de experiência</span>
+        </article>
+        <article class="stat-card">
+          <div class="stat-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v13a.5.5 0 0 1-.77.42L16 16.75l-3.23 2.17a.5.5 0 0 1-.54 0L9 16.75l-3.23 2.17A.5.5 0 0 1 5 18.5Z" fill="currentColor"/></svg>
+          </div>
+          <strong>TCC</strong>
+          <span>Abordagem terapêutica</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="challenges-section section-pad" id="desafios">
+      <div class="decor decor-soft-top"></div>
+      <div class="container">
+        <div class="section-title section-reveal reveal-up">
+          <span class="section-kicker">Você não está sozinha</span>
+          <h2>Você tem vivido algum desses <span>desafios</span>?</h2>
+        </div>
+
+        <div class="challenge-grid">
+          <article class="challenge-card section-reveal reveal-up">
+            <div class="card-icon">🧠</div>
+            <h3>Ansiedade</h3>
+            <p>Preocupação excessiva, mente acelerada, irritabilidade e dificuldade em relaxar podem ser sinais de que a ansiedade está limitando sua vida.</p>
+          </article>
+          <article class="challenge-card section-reveal reveal-up">
+            <div class="card-icon">⚡</div>
+            <h3>TDAH</h3>
+            <p>Dificuldade de foco, organização e gestão do tempo podem estar impactando sua produtividade e relacionamentos.</p>
+          </article>
+          <article class="challenge-card section-reveal reveal-up">
+            <div class="card-icon">💔</div>
+            <h3>Depressão</h3>
+            <p>Desânimo, desesperança e perda de interesse nas atividades que antes traziam prazer podem indicar que você precisa de apoio.</p>
+          </article>
+          <article class="challenge-card section-reveal reveal-up">
+            <div class="card-icon">👥</div>
+            <h3>Ansiedade Social</h3>
+            <p>Medo de julgamento, evitação de situações sociais e dificuldade em se expressar podem estar limitando suas conexões.</p>
+          </article>
+          <article class="challenge-card section-reveal reveal-up">
+            <div class="card-icon">⏳</div>
+            <h3>Burnout</h3>
+            <p>Esgotamento físico e emocional, perda de motivação e cinismo em relação ao trabalho são sinais de alerta importantes.</p>
+          </article>
+          <article class="challenge-card section-reveal reveal-up">
+            <div class="card-icon">✨</div>
+            <h3>Autoestima</h3>
+            <p>Autocrítica constante, dificuldade em reconhecer suas qualidades e medo de não ser suficiente afetam todas as áreas da vida.</p>
+          </article>
+        </div>
+
+        <p class="section-footnote section-reveal reveal-up">
+          Se você se identificou com algum desses desafios, a psicoterapia pode ajudar.
+        </p>
+      </div>
+    </section>
+
+    <section class="therapy-section section-pad" id="psicoterapia">
+      <div class="container">
+        <div class="section-title section-reveal reveal-up">
+          <span class="section-kicker">Como funciona</span>
+          <h2>A Jornada da <span>Psicoterapia</span></h2>
+          <p>
+            A Terapia Cognitivo-Comportamental é uma abordagem prática e baseada em evidências
+            que ajuda a transformar padrões de pensamento e comportamento.
+          </p>
+        </div>
+
+        <div class="therapy-grid">
+          <div class="steps-list" data-steps>
+            <article class="step-card is-active section-reveal reveal-left" data-step>
+              <button type="button" data-step-trigger>
+                <span class="step-number">01</span>
+                <div class="step-copy">
+                  <div class="step-head">
+                    <h3>Acolhimento</h3>
+                    <span class="step-arrow">→</span>
+                  </div>
+                  <p>Na primeira sessão, você terá um espaço seguro para compartilhar sua história e suas dificuldades sem julgamentos.</p>
+                </div>
+              </button>
+            </article>
+            <article class="step-card section-reveal reveal-left" data-step>
+              <button type="button" data-step-trigger>
+                <span class="step-number">02</span>
+                <div class="step-copy">
+                  <div class="step-head">
+                    <h3>Avaliação</h3>
+                    <span class="step-arrow">→</span>
+                  </div>
+                  <p>Faremos uma avaliação detalhada para entender suas necessidades e definir objetivos terapêuticos claros.</p>
+                </div>
+              </button>
+            </article>
+            <article class="step-card section-reveal reveal-left" data-step>
+              <button type="button" data-step-trigger>
+                <span class="step-number">03</span>
+                <div class="step-copy">
+                  <div class="step-head">
+                    <h3>Intervenção</h3>
+                    <span class="step-arrow">→</span>
+                  </div>
+                  <p>Utilizaremos técnicas da TCC para identificar e modificar pensamentos e comportamentos que geram sofrimento.</p>
+                </div>
+              </button>
+            </article>
+            <article class="step-card section-reveal reveal-left" data-step>
+              <button type="button" data-step-trigger>
+                <span class="step-number">04</span>
+                <div class="step-copy">
+                  <div class="step-head">
+                    <h3>Transformação</h3>
+                    <span class="step-arrow">→</span>
+                  </div>
+                  <p>Você desenvolverá novas habilidades e estratégias para lidar com os desafios e construir uma vida mais plena.</p>
+                </div>
+              </button>
+            </article>
+          </div>
+
+          <aside class="benefits-panel section-reveal reveal-right">
+            <h3>Benefícios da TCC</h3>
+            <ul class="benefits-list">
+              <li>Redução de sintomas de ansiedade e depressão</li>
+              <li>Melhora na autoestima e autoconfiança</li>
+              <li>Desenvolvimento de habilidades emocionais</li>
+              <li>Melhora nos relacionamentos interpessoais</li>
+              <li>Maior clareza e foco nos objetivos</li>
+              <li>Ferramentas práticas para o dia a dia</li>
+            </ul>
+            <a class="button button-primary button-large button-full" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+              <span class="icon-wrap">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5A8.5 8.5 0 0 1 7.4 18.9L3 20l1.18-4.2A8.5 8.5 0 1 1 20 11.5Zm-8.5-6.3A6.3 6.3 0 0 0 6.1 15.9l.27.43-.7 2.52 2.58-.67.42.25A6.3 6.3 0 1 0 11.5 5.2Zm3.77 8.03c-.2-.1-1.16-.57-1.34-.63-.18-.07-.31-.1-.44.1-.13.2-.5.63-.62.76-.11.13-.22.15-.42.05-.2-.1-.83-.3-1.58-.97-.58-.52-.97-1.17-1.08-1.37-.11-.2-.01-.31.08-.41.08-.08.2-.22.3-.33.1-.11.13-.2.2-.33.06-.13.03-.25-.02-.35-.05-.1-.44-1.05-.6-1.44-.16-.37-.32-.32-.44-.33h-.38c-.13 0-.35.05-.53.25-.18.2-.7.69-.7 1.69 0 1 .71 1.96.8 2.1.1.13 1.4 2.14 3.39 3 .47.2.84.32 1.13.41.48.15.91.13 1.25.08.38-.06 1.16-.47 1.33-.92.16-.46.16-.85.11-.92-.05-.08-.18-.13-.38-.23Z" fill="currentColor"/></svg>
+              </span>
+              Agendar Primeira Sessão
+            </a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-band-inner section-reveal reveal-up">
+        <div>
+          <span class="section-kicker">Seu próximo passo</span>
+          <h2>Se você sente que precisa de apoio, este pode ser o momento de começar.</h2>
+        </div>
+        <div class="cta-band-actions">
+          <a class="button button-light button-large" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">Quero falar pelo WhatsApp</a>
+          <a class="button button-outline-light button-large" href="#contato">Prefiro preencher o formulário</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials-section section-pad">
+      <div class="container">
+        <div class="section-title section-reveal reveal-up">
+          <span class="section-kicker">Depoimentos</span>
+          <h2>O que dizem sobre <span>mim</span></h2>
+        </div>
+
+        <div class="testimonial-shell section-reveal reveal-up" data-testimonials>
+          <div class="quote-mark">“</div>
+          <div class="testimonial-track">
+            <article class="testimonial-item is-visible" data-testimonial>
+              <p class="testimonial-text">"A Patricia me ajudou a entender meus padrões de pensamento e a desenvolver ferramentas práticas para lidar com a ansiedade. Hoje me sinto muito mais no controle da minha vida."</p>
+              <div class="testimonial-author">
+                <div class="author-badge">MS</div>
+                <div>
+                  <strong>Maria S.</strong>
+                  <span>Paciente</span>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-item" data-testimonial>
+              <p class="testimonial-text">"Depois de anos sofrendo com TDAH sem saber, a terapia com a Patricia foi transformadora. Ela me ajudou a desenvolver estratégias que realmente funcionam no meu dia a dia."</p>
+              <div class="testimonial-author">
+                <div class="author-badge">CR</div>
+                <div>
+                  <strong>Carlos R.</strong>
+                  <span>Paciente</span>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-item" data-testimonial>
+              <p class="testimonial-text">"O acolhimento e a empatia da Patricia fizeram toda a diferença. Me senti segura para explorar questões difíceis e encontrar novos caminhos."</p>
+              <div class="testimonial-author">
+                <div class="author-badge">AL</div>
+                <div>
+                  <strong>Ana L.</strong>
+                  <span>Paciente</span>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-item" data-testimonial>
+              <p class="testimonial-text">"A abordagem da TCC foi exatamente o que eu precisava. Resultados práticos e mensuráveis em poucas sessões. Recomendo muito!"</p>
+              <div class="testimonial-author">
+                <div class="author-badge">PM</div>
+                <div>
+                  <strong>Pedro M.</strong>
+                  <span>Paciente</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="testimonial-footer">
+            <div class="testimonial-dots" data-testimonial-dots></div>
+            <div class="testimonial-controls">
+              <button type="button" aria-label="Depoimento anterior" data-testimonial-prev>‹</button>
+              <button type="button" aria-label="Próximo depoimento" data-testimonial-next>›</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section section-pad" id="faq">
+      <div class="container faq-grid">
+        <div class="faq-copy section-reveal reveal-left">
+          <span class="section-kicker">Tire suas dúvidas</span>
+          <h2>Perguntas <span>Frequentes</span></h2>
+          <p>
+            Ficou com alguma dúvida que não está aqui? Entre em contato, estou
+            disponível para esclarecer qualquer questão.
+          </p>
+          <a class="button button-primary button-large" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+            <span class="icon-wrap">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5A8.5 8.5 0 0 1 7.4 18.9L3 20l1.18-4.2A8.5 8.5 0 1 1 20 11.5Zm-8.5-6.3A6.3 6.3 0 0 0 6.1 15.9l.27.43-.7 2.52 2.58-.67.42.25A6.3 6.3 0 1 0 11.5 5.2Zm3.77 8.03c-.2-.1-1.16-.57-1.34-.63-.18-.07-.31-.1-.44.1-.13.2-.5.63-.62.76-.11.13-.22.15-.42.05-.2-.1-.83-.3-1.58-.97-.58-.52-.97-1.17-1.08-1.37-.11-.2-.01-.31.08-.41.08-.08.2-.22.3-.33.1-.11.13-.2.2-.33.06-.13.03-.25-.02-.35-.05-.1-.44-1.05-.6-1.44-.16-.37-.32-.32-.44-.33h-.38c-.13 0-.35.05-.53.25-.18.2-.7.69-.7 1.69 0 1 .71 1.96.8 2.1.1.13 1.4 2.14 3.39 3 .47.2.84.32 1.13.41.48.15.91.13 1.25.08.38-.06 1.16-.47 1.33-.92.16-.46.16-.85.11-.92-.05-.08-.18-.13-.38-.23Z" fill="currentColor"/></svg>
+            </span>
+            Fale Comigo
+          </a>
+        </div>
+
+        <div class="faq-list section-reveal reveal-right" data-faq-list>
+          <article class="faq-item is-open">
+            <button class="faq-question" type="button" aria-expanded="true">
+              <span>Como funcionam as consultas online?</span>
+              <span class="faq-chevron">⌄</span>
+            </button>
+            <div class="faq-answer">
+              <p>As sessões são realizadas por videoconferência em uma plataforma segura e sigilosa. Você só precisa de um dispositivo com câmera, microfone e conexão estável com a internet.</p>
+            </div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Quanto tempo dura cada sessão?</span>
+              <span class="faq-chevron">⌄</span>
+            </button>
+            <div class="faq-answer">
+              <p>Cada sessão tem duração de 50 minutos. A frequência geralmente é semanal, mas pode ser ajustada conforme suas necessidades e objetivos.</p>
+            </div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Quanto tempo leva para ver resultados?</span>
+              <span class="faq-chevron">⌄</span>
+            </button>
+            <div class="faq-answer">
+              <p>Cada pessoa tem seu próprio ritmo. Muitos pacientes percebem mudanças nas primeiras 4 a 8 sessões. A TCC é conhecida por oferecer resultados mais rápidos que outras abordagens.</p>
+            </div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Qual é o valor das consultas?</span>
+              <span class="faq-chevron">⌄</span>
+            </button>
+            <div class="faq-answer">
+              <p>Entre em contato pelo WhatsApp para informações sobre valores e formas de pagamento. Ofereço valores especiais para pacotes mensais.</p>
+            </div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>O que é a Terapia Cognitivo-Comportamental (TCC)?</span>
+              <span class="faq-chevron">⌄</span>
+            </button>
+            <div class="faq-answer">
+              <p>A TCC é uma abordagem terapêutica que trabalha a relação entre pensamentos, emoções e comportamentos. É uma das terapias mais estudadas e com maior evidência científica de eficácia.</p>
+            </div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Como agendar uma sessão?</span>
+              <span class="faq-chevron">⌄</span>
+            </button>
+            <div class="faq-answer">
+              <p>Você pode entrar em contato pelo WhatsApp. Respondo em até 24 horas e agendamos um horário que funcione para você.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad" id="contato">
+      <div class="container contact-grid">
+        <div class="contact-copy section-reveal reveal-left">
+          <span class="section-kicker">Agendamento</span>
+          <h2>Envie sua mensagem e continue no WhatsApp</h2>
+          <p>
+            Você pode usar este formulário para adiantar seu primeiro contato. Ao enviar,
+            o WhatsApp será aberto com uma mensagem estruturada para facilitar o agendamento.
+          </p>
+          <div class="contact-highlights">
+            <div class="contact-highlight">
+              <strong>1.</strong>
+              <span>Preencha seus dados básicos.</span>
+            </div>
+            <div class="contact-highlight">
+              <strong>2.</strong>
+              <span>Conte brevemente o que você está buscando.</span>
+            </div>
+            <div class="contact-highlight">
+              <strong>3.</strong>
+              <span>Abra o WhatsApp com a mensagem pronta para enviar.</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form whatsapp-form section-reveal reveal-right" data-whatsapp-form>
+          <div class="form-grid">
+            <label>
+              <span>Nome</span>
+              <input type="text" name="name" placeholder="Seu nome" required>
+            </label>
+            <label>
+              <span>WhatsApp</span>
+              <input type="tel" name="phone" placeholder="(11) 99999-9999">
+            </label>
+          </div>
+
+          <div class="form-grid">
+            <label>
+              <span>Motivo do contato</span>
+              <select name="goal" required>
+                <option value="">Selecione</option>
+                <option>Quero iniciar terapia</option>
+                <option>Quero saber valores</option>
+                <option>Quero entender como funciona</option>
+                <option>Busco ajuda para ansiedade</option>
+                <option>Busco ajuda para TDAH</option>
+                <option>Busco ajuda para autoestima</option>
+              </select>
+            </label>
+            <label>
+              <span>Melhor horário para retorno</span>
+              <select name="schedule">
+                <option value="">Selecione</option>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+                <option>Horário comercial</option>
+                <option>Fim do dia</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            <span>Conte brevemente o que você está vivendo</span>
+            <textarea name="message" rows="5" placeholder="Ex.: estou buscando terapia para lidar com ansiedade, sobrecarga emocional ou dificuldade de foco."></textarea>
+          </label>
+
+          <button class="button button-primary button-large button-full" type="submit">Enviar pelo WhatsApp</button>
+          <p class="form-note">Ao clicar, o WhatsApp abre com a sua mensagem preenchida. Você revisa e envia se quiser.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <section class="footer-cta">
+      <div class="container footer-cta-inner section-reveal reveal-up">
+        <h2>Pronta para começar sua jornada?</h2>
+        <p>Dê o primeiro passo em direção a uma vida mais equilibrada e plena. Agende sua primeira sessão.</p>
+        <a class="button button-light button-large" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">Agendar Consulta</a>
+      </div>
+    </section>
+
+    <div class="container footer-main">
+      <div class="footer-grid section-reveal reveal-up">
+        <div class="footer-brand">
+          <h3>Patricia S. Pereira</h3>
+          <span>Psicóloga Clínica</span>
+          <p>
+            Psicóloga clínica especializada em Terapia Cognitivo-Comportamental.
+            Atendimento online para todo o Brasil.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="LinkedIn">IN</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Links Rápidos</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#desafios">Desafios</a></li>
+            <li><a href="#psicoterapia">A Psicoterapia</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contato</h4>
+          <ul class="footer-links">
+            <li><a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">(11) 99999-9999</a></li>
+            <li><a href="mailto:contato@patriciaoliveira.com.br">contato@patriciaoliveira.com.br</a></li>
+            <li><span>Atendimento Online - Brasil</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>CRP 06/123456 - Todos os direitos reservados</p>
+        <p>Feito com cuidado em <span id="current-year"></span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
