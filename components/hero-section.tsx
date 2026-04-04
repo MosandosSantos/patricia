@@ -200,7 +200,7 @@ export function HeroSection() {
                   <span className="text-2xl">🎓</span>
                 </div>
                 <div>
-                  <p className="text-[#4A3F3F] font-semibold text-sm">CRP 06/123456</p>
+                  <p className="text-[#4A3F3F] font-semibold text-sm">CRP 05/86082</p>
                   <p className="text-[#7A6B6B] text-xs">Especialista TCC</p>
                 </div>
               </div>

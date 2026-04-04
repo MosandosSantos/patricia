@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import Image from "next/image"
-import { Check, Heart, Award, BookOpen } from "lucide-react"
+import { Check } from "lucide-react"
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -12,7 +12,6 @@ export function AboutSection() {
   const sectionRef = useRef<HTMLElement>(null)
   const imageRef = useRef<HTMLDivElement>(null)
   const contentRef = useRef<HTMLDivElement>(null)
-  const statsRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -40,36 +39,16 @@ export function AboutSection() {
         stagger: 0.15,
         ease: "power3.out",
       })
-
-      gsap.from(statsRef.current?.children || [], {
-        scrollTrigger: {
-          trigger: statsRef.current,
-          start: "top 90%",
-          toggleActions: "play none none reverse",
-        },
-        y: 50,
-        opacity: 0,
-        scale: 0.8,
-        duration: 0.6,
-        stagger: 0.1,
-        ease: "back.out(1.7)",
-      })
     }, sectionRef)
 
     return () => ctx.revert()
   }, [])
 
   const credentials = [
-    "Psicologa Clinica - CRP 06/123456",
+    "Psicologa Clinica - CRP 05/86082",
     "Especialista em Terapia Cognitivo-Comportamental",
     "Pos-graduacao em Saude Mental e TDAH",
     "Atendimento online para todo o Brasil",
-  ]
-
-  const stats = [
-    { icon: Heart, value: "+500", label: "Pacientes atendidos" },
-    { icon: Award, value: "10+", label: "Anos de experiencia" },
-    { icon: BookOpen, value: "TCC", label: "Abordagem" },
   ]
 
   return (
@@ -120,9 +99,9 @@ export function AboutSection() {
 
             <div className="space-y-4 text-[#7A6B6B] leading-relaxed">
               <p>
-                Sou psicologa clinica com mais de 10 anos de experiencia em atendimento 
-                individual para adultos. Minha abordagem e a Terapia Cognitivo-Comportamental (TCC), 
-                uma das mais eficazes e baseadas em evidencias cientificas.
+                Sou psicologa clinica e realizo atendimento individual para adultos.
+                Minha abordagem e a Terapia Cognitivo-Comportamental (TCC),
+                reconhecida por sua eficacia e por ser baseada em evidencias cientificas.
               </p>
               <p>
                 Acredito que a psicoterapia e um espaco de acolhimento e transformacao, 
@@ -143,25 +122,6 @@ export function AboutSection() {
               ))}
             </div>
           </div>
-        </div>
-
-        {/* Stats */}
-        <div
-          ref={statsRef}
-          className="grid grid-cols-3 gap-6 mt-20 max-w-3xl mx-auto"
-        >
-          {stats.map((stat, index) => (
-            <div
-              key={index}
-              className="text-center p-6 bg-[#F5EBE8] rounded-3xl"
-            >
-              <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-sm">
-                <stat.icon className="w-7 h-7 text-[#C9A9A6]" />
-              </div>
-              <p className="font-serif text-3xl text-[#4A3F3F]">{stat.value}</p>
-              <p className="text-[#7A6B6B] text-sm mt-1">{stat.label}</p>
-            </div>
-          ))}
         </div>
       </div>
     </section>

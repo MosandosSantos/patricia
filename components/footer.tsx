@@ -160,7 +160,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/40 text-sm">
-            CRP 06/123456 - Todos os direitos reservados
+            CRP 05/86082 - Todos os direitos reservados
           </p>
           <p className="text-white/40 text-sm flex items-center gap-1">
             Feito com <Heart className="w-4 h-4 text-[#C9A9A6]" /> em {currentYear}
