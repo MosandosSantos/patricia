@@ -186,7 +186,7 @@ whatsappForms.forEach((form) => {
     const message = String(formData.get("message") || "").trim();
 
     const lines = [
-      "Olá, Patricia. Vim pelo site e gostaria de agendar uma consulta.",
+      "Olá, Patrícia. Vim pelo site e gostaria de agendar uma consulta.",
       name ? `Nome: ${name}` : "",
       phone ? `WhatsApp: ${phone}` : "",
       goal ? `Motivo do contato: ${goal}` : "",

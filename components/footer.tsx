@@ -84,7 +84,7 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <h3 className="font-serif text-3xl text-white mb-2">
-              Patricia Oliveira
+              Patrícia Sampaio
             </h3>
             <p className="text-[#C9A9A6] tracking-[0.2em] uppercase text-sm mb-4">
               Psicologa Clinica

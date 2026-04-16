@@ -69,7 +69,7 @@ export function AboutSection() {
             <div className="relative aspect-[4/5] rounded-[3rem] overflow-hidden shadow-2xl">
               <Image
                 src="/images/patricia-about.jpg"
-                alt="Patricia Oliveira - Psicologa"
+                alt="Patrícia Sampaio - Psicologa"
                 fill
                 className="object-cover"
               />
@@ -81,7 +81,7 @@ export function AboutSection() {
               </p>
               <div className="mt-3 flex items-center gap-2">
                 <div className="w-8 h-0.5 bg-[#C9A9A6] rounded-full" />
-                <span className="text-[#C9A9A6] text-xs font-medium">Patricia</span>
+                <span className="text-[#C9A9A6] text-xs font-medium">Patrícia</span>
               </div>
             </div>
           </div>
@@ -93,20 +93,16 @@ export function AboutSection() {
                 Sobre Mim
               </span>
               <h2 className="font-serif text-3xl lg:text-5xl text-[#4A3F3F] mt-3 leading-tight">
-                Ola, sou a Patricia
+                Ola, sou a Patrícia
               </h2>
             </div>
 
             <div className="space-y-4 text-[#7A6B6B] leading-relaxed">
               <p>
-                Sou psicologa clinica e realizo atendimento individual para adultos.
-                Minha abordagem e a Terapia Cognitivo-Comportamental (TCC),
-                reconhecida por sua eficacia e por ser baseada em evidencias cientificas.
+                Sou psicóloga clínica e realizo atendimentos presencial e online para adolescentes e adultos. Minha abordagem é a Terapia Cognitivo Comportamental (TCC), baseada em evidências científicas.
               </p>
               <p>
-                Acredito que a psicoterapia e um espaco de acolhimento e transformacao, 
-                onde voce pode desenvolver novas habilidades para lidar com os desafios 
-                da vida e construir uma relacao mais saudavel consigo mesmo.
+                Acredito que a psicoterapia é transformação e construir uma relação mais saudável consigo mesmo.
               </p>
             </div>
 

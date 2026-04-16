@@ -138,20 +138,19 @@ export function HeroSection() {
               ref={titleRef}
               className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#4A3F3F] leading-tight"
             >
-              Patricia Oliveira
+              Patrícia Sampaio
             </h1>
             <p
               ref={subtitleRef}
               className="text-[#C9A9A6] text-lg md:text-xl lg:text-2xl tracking-[0.2em] uppercase mt-4 font-light"
             >
-              Psicoterapia Cognitivo-Comportamental
+              Psicoterapia presencial e online
             </p>
             <p
               ref={descRef}
               className="text-[#7A6B6B] text-base lg:text-lg mt-6 lg:mt-8 max-w-xl mx-auto lg:mx-0 leading-relaxed"
             >
-              Atendimento online individual para adultos. Transforme sua relacao com voce
-              mesmo e conquiste uma vida mais equilibrada e plena.
+              Atendimento presencial e online para adolescentes e adultos. Transforme sua relação com você mesmo e conquiste uma vida mais equilibrada e plena.
             </p>
 
             <div ref={ctaRef} className="mt-8 lg:mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -187,7 +186,7 @@ export function HeroSection() {
             >
               <Image
                 src="/images/patricia-hero.jpg"
-                alt="Patricia Oliveira - Psicologa"
+                alt="Patrícia Sampaio - Psicologa"
                 fill
                 className="object-cover"
                 priority

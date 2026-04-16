@@ -10,17 +10,17 @@ gsap.registerPlugin(ScrollTrigger)
 const testimonials = [
   {
     name: "Maria S.",
-    text: "A Patricia me ajudou a entender meus padroes de pensamento e a desenvolver ferramentas praticas para lidar com a ansiedade. Hoje me sinto muito mais no controle da minha vida.",
+    text: "A Patrícia me ajudou a entender meus padroes de pensamento e a desenvolver ferramentas praticas para lidar com a ansiedade. Hoje me sinto muito mais no controle da minha vida.",
     initials: "MS",
   },
   {
     name: "Carlos R.",
-    text: "Depois de anos sofrendo com TDAH sem saber, a terapia com a Patricia foi transformadora. Ela me ajudou a desenvolver estrategias que realmente funcionam no meu dia a dia.",
+    text: "Depois de anos sofrendo com TDAH sem saber, a terapia com a Patrícia foi transformadora. Ela me ajudou a desenvolver estrategias que realmente funcionam no meu dia a dia.",
     initials: "CR",
   },
   {
     name: "Ana L.",
-    text: "O acolhimento e a empatia da Patricia fizeram toda a diferenca. Me senti segura para explorar questoes dificeis e encontrar novos caminhos.",
+    text: "O acolhimento e a empatia da Patrícia fizeram toda a diferenca. Me senti segura para explorar questoes dificeis e encontrar novos caminhos.",
     initials: "AL",
   },
   {

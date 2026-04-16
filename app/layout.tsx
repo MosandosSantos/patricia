@@ -16,7 +16,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Patricia Oliveira | Psicoterapia Online',
+  title: 'Patrícia Sampaio | Psicoterapia presencial e online',
   description: 'Psicóloga clínica especializada em Terapia Cognitivo-Comportamental. Atendimento online para ansiedade, depressão, TDAH e desenvolvimento pessoal.',
   generator: 'v0.app',
   icons: {

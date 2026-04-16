@@ -94,10 +94,10 @@ export function Header() {
             <Link href="#inicio" className="group">
               <div className="flex flex-col">
                 <span className="font-serif text-2xl lg:text-3xl text-[#4A3F3F] tracking-wide">
-                  Patricia Oliveira
+                  Patrícia Sampaio
                 </span>
                 <span className="text-xs lg:text-sm text-[#C9A9A6] tracking-[0.3em] uppercase">
-                  Psicoterapia Online
+                  Psicoterapia presencial e online
                 </span>
               </div>
             </Link>
