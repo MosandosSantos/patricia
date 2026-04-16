@@ -171,7 +171,7 @@ if (currentYear) {
   currentYear.textContent = String(new Date().getFullYear());
 }
 
-const whatsappNumber = "5511999999999";
+const whatsappNumber = "5521979978050";
 const whatsappForms = document.querySelectorAll("[data-whatsapp-form]");
 
 whatsappForms.forEach((form) => {

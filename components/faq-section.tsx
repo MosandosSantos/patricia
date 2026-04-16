@@ -115,7 +115,7 @@ export function FAQSection() {
               asChild
             >
               <a
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/5521979978050"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -43,7 +43,7 @@ export function Footer() {
   ]
 
   const socialLinks = [
-    { icon: Instagram, href: "#", label: "Instagram" },
+    { icon: Instagram, href: "https://www.instagram.com/patriciaspereira_psicologa", label: "Instagram" },
     { icon: Linkedin, href: "#", label: "LinkedIn" },
   ]
 
@@ -68,7 +68,7 @@ export function Footer() {
             asChild
           >
             <a
-              href="https://wa.me/5511999999999"
+              href="https://wa.me/5521979978050"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -131,20 +131,20 @@ export function Footer() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="https://wa.me/5511999999999"
+                  href="https://wa.me/5521979978050"
                   className="flex items-center gap-3 text-white/60 hover:text-[#C9A9A6] transition-colors duration-300"
                 >
                   <Phone className="w-5 h-5" />
-                  <span>(11) 99999-9999</span>
+                  <span>(21) 97997-8050</span>
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:contato@patriciaoliveira.com.br"
+                  href="mailto:psi.patriciasampaio@gmail.com"
                   className="flex items-center gap-3 text-white/60 hover:text-[#C9A9A6] transition-colors duration-300"
                 >
                   <Mail className="w-5 h-5" />
-                  <span>contato@patriciaoliveira.com.br</span>
+                  <span>psi.patriciasampaio@gmail.com</span>
                 </a>
               </li>
               <li>
@@ -158,10 +158,23 @@ export function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-white/40 text-sm">
-            CRP 05/86082 - Todos os direitos reservados
-          </p>
+        <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between md:items-center gap-6">
+          <div className="text-white/40 text-sm space-y-2">
+            <p>CRP 05/86082 - Todos os direitos reservados</p>
+            <p>Desenvolvido por EsferaDataSci</p>
+            <p>Responsável: Mosán dos Santos</p>
+            <p>
+              <a
+                href="https://wa.me/5521999417097?text=Ol%C3%A1%20vi%20o%20site%20da%20Patr%C3%ADcia%20Psic%C3%B3loga%20e%20quero%20falar%20do%20meu%20projeto."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/60 hover:text-[#C9A9A6] transition-colors duration-300"
+              >
+                Chame no WhatsApp
+              </a>
+            </p>
+          </div>
+
           <p className="text-white/40 text-sm flex items-center gap-1">
             Feito com <Heart className="w-4 h-4 text-[#C9A9A6]" /> em {currentYear}
           </p>

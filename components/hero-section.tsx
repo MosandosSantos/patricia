@@ -159,7 +159,7 @@ export function HeroSection() {
                 className="bg-[#C9A9A6] hover:bg-[#A88A87] text-white rounded-full px-8 py-6 text-lg shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-105 group"
                 asChild
               >
-                <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5521979978050" target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform" />
                   Fale Comigo
                 </a>

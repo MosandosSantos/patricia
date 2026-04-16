@@ -50,14 +50,14 @@ export function ContactSection() {
     {
       icon: Phone,
       label: 'Telefone',
-      value: '(11) 98765-4321',
-      href: 'tel:+5511987654321',
+      value: '(21) 97997-8050',
+      href: 'tel:+5521979978050',
     },
     {
       icon: Mail,
       label: 'Email',
-      value: 'contato@marinasilva.com',
-      href: 'mailto:contato@marinasilva.com',
+      value: 'psi.patriciasampaio@gmail.com',
+      href: 'mailto:psi.patriciasampaio@gmail.com',
     },
     {
       icon: MapPin,
@@ -167,7 +167,7 @@ export function ContactSection() {
                 value={formData.phone}
                 onChange={handleChange}
                 className="w-full px-4 py-2 bg-secondary border border-border rounded-lg font-light focus:outline-none focus:ring-2 focus:ring-sage-green/50 transition-all"
-                placeholder="(11) 98765-4321"
+                placeholder="(21) 97997-8050"
               />
             </div>
 
