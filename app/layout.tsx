@@ -4,13 +4,13 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const cinzel = Cinzel({ 
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-serif"
 });
 
 const poppins = Poppins({ 
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   weight: ["300", "400", "500", "600", "700"],
   variable: "--font-sans"
 });
